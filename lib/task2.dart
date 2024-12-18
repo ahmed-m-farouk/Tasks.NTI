@@ -92,7 +92,7 @@ class Task2 extends StatelessWidget {
   }
 }
 
-Widget box(String text, Color color) {
+Container box(String text, Color color) {
   return Container(
     alignment: Alignment.center,
     decoration: BoxDecoration(
