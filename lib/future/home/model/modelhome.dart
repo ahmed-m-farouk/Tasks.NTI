@@ -1,3 +1,7 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_application_2/future/home/view/widget/bulidbody.dart';
+import 'package:flutter_application_2/future/home/view/widget/bulidstorys.dart';
+
 class Modelhome {
   late final String tittle;
   final String suptittle;
@@ -6,6 +10,15 @@ class Modelhome {
   Modelhome(
       {required this.tittle, required this.suptittle, required this.image});
 }
+
+List<String> tittle = [
+  'واتساب ',
+  'المستجدات ',
+];
+List<Widget> screens = [
+  Bulidbody(),
+  Bulidstorys(),
+];
 
 List<Modelhome> listhome = [
   Modelhome(
